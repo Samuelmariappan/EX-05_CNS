@@ -1,7 +1,7 @@
 ## EX-
 
-# DEFEATING MALWARE - BUILDING TROJANS 
-# DATE : 
+## DEFEATING MALWARE - BUILDING TROJANS 
+## DATE : 
 
 ## AIM:  
  To build a Trojan and know the harmness of the trojan malwares in a computer system.  
