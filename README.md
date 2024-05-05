@@ -1,18 +1,33 @@
-# EX-05_CNS
+## EX-
 
 # DEFEATING MALWARE - BUILDING TROJANS 
-# DATE : 25/04/24
-# AIM:  
+# DATE : 
+
+## AIM:  
  To build a Trojan and know the harmness of the trojan malwares in a computer system.  
  
-# PROCEDURE: 
-1. Create a simple trojan by using Windows Batch File (.bat) 
-2. Type these below code in notepad and save it as Trojan.bat 
-3. Double click on Trojan.bat file. 
-4. When the trojan code executes, it will open MS-Paint, Notepad, Command Prompt, Explorer, etc., infinitely. 
-5. Restart the computer to stop the execution of this trojan. 
+## PROCEDURE: 
+Step 1:
+
+Create a simple trojan by using Windows Batch File (.bat) 
+
+Step 2:
+
+Type these below code in notepad and save it as Trojan.bat
+
+Step 3:
+
+Double click on Trojan.bat file. 
+
+Step 4:
+
+When the trojan code executes, it will open MS-Paint, Notepad, Command Prompt, Explorer, etc., infinitely. 
+
+Step 5:
+
+Restart the computer to stop the execution of this trojan. 
  
-# TROJAN: 
+## TROJAN: 
   In computing, a Trojan horse,or trojan, is any malware which misleads users of its 
 true intent. 
   Trojans are generally spread by some form of social engineering, for example where a 
@@ -26,7 +41,7 @@ computer.
 information, passwords, or personal identity. 
   Example: Ransomware attacks are often carried out using a trojan. 
 
-# CODE: 
+## CODE: 
 Trojan.bat 
 @echo off 
 :x 
@@ -38,26 +53,27 @@ start control
 start calc 
 goto x 
  
-# OUTPUT 
+## OUTPUT 
           (MS-Paint, Notepad, Command Prompt, Explorer will open infinitely)
 
-# RESULT:
+## RESULT:
   Thus a Trojan was built and the harmness of the trojan malwares in a computer system is Known.  
 
 
 
 
 
+## Ex-
 
-
-
-  # INSTALL ROOTKITS AND STUDY VARIETY OF OPTIONS 
+## INSTALL ROOTKITS AND STUDY VARIETY OF OPTIONS 
+## DATE: 
  
- 
-# AIM: 
+## AIM:
+
  To install a rootkit hunter and find the malwares in a computer. 
  
-# ROOTKIT HUNTER: 
+## ROOTKIT HUNTER: 
+
  rkhunter (Rootkit Hunter) is a Unix-based tool that scans for rootkits, backdoors and 
 possible local exploits. 
  It does this by comparing SHA-1 hashes of important files with known good ones in 
@@ -69,13 +85,14 @@ etc.)
  The tool has been written in Bourne shell, to allow for portability. It can run on 
 almost all UNIX-derived systems. 
  
-# GMER ROOTKIT TOOL: 
+## GMER ROOTKIT TOOL: 
+
  GMER is a software tool written by a Polish researcher Przemysław Gmerek, for 
 detecting and removing rootkits. 
  It runs on Microsoft Windows and has support for Windows NT, 2000, XP, Vista, 7, 
 8 and 10. With version 2.0.18327 full support for Windows x64 is added. 
  
-Step 1 
+Step 1:
  
  ![image](https://github.com/IsaacAIML2023/EX-05_CNS/assets/158465339/7a1c42e6-2bba-4c48-a662-e84ae9868104)
 
@@ -83,22 +100,27 @@ Visit GMER's website (see Resources) and download the GMER executable.
 Click the "Download EXE" button to download the program with a random file name, as 
 some rootkits will close “gmer.exe” before you can open it. 
  
-Step 2 
+Step 2:
+
  ![image](https://github.com/IsaacAIML2023/EX-05_CNS/assets/158465339/e59eac81-a8f2-4714-aabf-fac41f6a8293)
 
 Double-click the icon for the program. 
 Click the "Scan" button in the lower-right corner of the dialog box. Allow the program to 
 scan your entire hard drive. 
+
 Step 3: 
  
  ![image](https://github.com/IsaacAIML2023/EX-05_CNS/assets/158465339/30465d75-b079-4141-9d0e-59f0c8150028)
 
 When the program completes its scan, select any program or file listed in red. Right-click it 
 and select "Delete." 
+
 If the red item is a service, it may be protected. Right-click the service and select "Disable." 
+
 Reboot your computer and run the scan again, this time selecting "Delete" when that service 
 is detected. 
+
 When your computer is free of Rootkits, close the program and restart your  PC. 
   
-# RESULT:
+## RESULT:
   To install a rootkit hunter and find the malwares in a computer was implemented successfully. 
